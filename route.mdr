@@ -238,6 +238,10 @@ Solve the Furfrou puzzle:
   - Have Shauna wait in the right spot where Furfrou was before
   - Run around the left side to trap Furfrou.
 
+Pick up a hidden Rare Candy at the top of the fountain 
+
+![Foutain candy](fountaincandy.png)
+
 Go back to the palace and enjoy the fireworks (Up the left stairs)
 
 Head back to Snorlax and run from him.
@@ -273,7 +277,7 @@ Get a :info[free heal]{color=pink} from the Scientist if :info[low HP or paralyz
 
 Go left instead and jump down some ledges to grab the HP Up
 
-!(HP Up location)[hpuplocation]
+!(HP Up location)[hpuplocation.png]
 
 Watch for optional in :info[yellow flowers]{color=yellow}
 :::card
@@ -365,7 +369,7 @@ Go through Aquariem(Building left of Pokemon Center)
 
 Head south and pick up a hidden Rare Candy.
 
-![Rare Candy Location](route8candy)
+![Rare Candy Location](route8candy.png)
 
 - Avoid the Swimmer facing right after you receive the Dowsing Machine 
   - BEAR LEFT TO AVOID
@@ -425,8 +429,1365 @@ Head to Geosenge then **enter and leave the center** before heading back to rout
 ####   - Swap Oran Berry to Hawlucha if holding it
   :info[_Optional: Move Swords Dance to slot 2 (for muscle memory_)]{color=yellow}
   :::
+  :::if{source="Hawlucha" condition="speed=~(x/24+/1+) && startingLevel=20"}
+ ####  - Pick up hidden X-Speed
+ 
+  ![X Speed next to cyclist](cyclistxspeed.png)
+  :::
   :::if{source="Hawlucha" condition="speed=(4-/x/x) && startingLevel=20"}
 ####    - Reset for another Hawlucha
   :::
 :::::
 
+- Get massage (building left to center)
+  - A little bit more friendly.
+  - Somewhat more friendly.
+  - Much more friendly.
+
+:info[Swap Farfetch'd back to the front]{color=yellow}
+
+:::card{theme=success}
+- CYLLAGE GYM
+  - Head right and around the corner, then climb the rock wall
+  - Head up the stairs, then climb the left rock wall.
+  - When you round the corner after the mud slope, go past the climbable rock wall.
+  - Hug the wall to avoid an Ace Trainer, then climb the rock wall. 
+  - Final Hiker is a spinner.
+::::
+
+:::::::trainer[Leader Grant]
+  :::::pokemon[Amaura]
+    - Leer until Quackling dies
+    - Swap to Hawlucha
+    - Karate Chop (Rock Smash)
+  :::::
+  :::::pokemon[Tyrunt]{info="if Unburden, you will outspeed after 2 Rock Tombs with Oran Berry" infoColor=blue}
+    :::if{source="Hawlucha" condition="atk=(31/7+/#) && startingLevel=19"}
+      - Swords Dance x2
+      - Karate Chop
+    :::
+    :::if{source="Hawlucha" condition="atk=~(31/7+/#) && startingLevel=19"}
+      - Swords Dance
+      - Karate Chop x2
+    :::
+    :::if{source="Hawlucha" condition="atk=(x/x/21+) && startingLevel=20"}
+      - Swords Dance x2
+      - Rock Smash
+    :::
+    :::if{source="Hawlucha" condition="atk=~(x/x/21+) && startingLevel=20"}
+      - Swords Dance
+      - Rock Smash x2
+    :::
+  ::::: 
+:::::::
+
+Pickup hidden Protein and hidden Ether (optionally X defense)
+
+![Hidden Protein](cyllagegymprotein.png)
+![X-Def and Ether](xdefandether.png)
+
+:info[Swap Hawlucha to the front of party]{color=yellow}
+- Get double massage if possible
+
+Head south to Route 8 and battle the swimmer
+
+:::::trainer[Swimmer Marissa]
+ ::::pokemon[Masquerain]
+    - Swords Dance / Encore on Gust and die
+ ::::
+:::::
+
+Deposit Farfetch’d
+
+Head north-west for a cutscene.
+
+Head to the east exit and battle Korrina
+
+:::::::trainer[Leader Korrina]
+  :::::pokemon[Lucario]
+     - Swords Dance x3
+     - Karate Chop / Rock Smash (x2)
+  :::::
+  :::::pokemon[Lucario]{info="+4 Karate Chop is 100% at 44+ Attack (16+ / 0+ / 0+)"}
+     - Karate Chop / Rock Smash (x2)
+  :::::
+:::::::
+
+Go east, behind the Psychic near the berry tree, then go south once you go up the stairs to avoid the grass.
+
+Head up the stairs and head north into Reflection Cave.
+
+_Can run past Double Battle at end_
+
+![Route 11 movement](route11movement.gif)
+
+- Once you enter the cave
+  - Equip Jaw Fossil
+  - Use a Repel
+  - Heal to full
+
+:::::::trainer[Backpacker Lane]{info="Faster at 58+ Speed L22(x/5+/0+) L23(25+/0+/0+)"}
+  :::::pokemon[Linoone]
+    :::if{source="Hawlucha" condition="startingLevel=19"}
+     - Karate Chop x2 (+ Wing Attack)
+    :::
+    :::if{source="Hawlucha" condition="startingLevel=20"}
+     -  Rock Smash x2-3
+     - Teach Fling over Rock Smash
+    :::
+  :::::
+:::::::
+
+Heal to full and head south then east at the walking Battle Girl
+
+:::::::trainer[Ace Trainer Monique]
+  :::::pokemon[Doduo]
+     - Swords Dance x2
+     - Wing Attack
+  :::::
+  :::::pokemon[Doduo]{info="Has Quick Attack"}
+     - Karate Chop / Fling
+  :::::
+  :::::pokemon[Granbull]{info="Remeber HP After" infoColor=pink}
+     - Wing Attack x2
+     - Tach FLing over Karate Chop
+     ::damage[Granbull’s Headbutt does at 23]{source="Hawlucha" special=false offensive=false movePower=70 level=23 opponentLevel=16 stab=false opponentStat=66}
+     ::damage[Granbull’s Headbutt does at 24]{source="Hawlucha" special=false offensive=false movePower=70 level=24 opponentLevel=16 stab=false opponentStat=66}
+:::::::
+
+Use a Soda Pop if can die to Confusion (or Super Potion if Shadow Punch if going for +0 range
+
+::damage[Chimecho’s Confusion does at L24)]{source="Hawlucha" special=true offensive=false movePower=50 level=24 opponentLevel=24 stab=true opponentStat=55}
+::damage[Chimecho’s Confusion does at L25)]{source="Hawlucha" special=true offensive=false movePower=50 level=25 opponentLevel=24 stab=true opponentStat=55}
+
+::damage[Golett’s Shadow Punch does at L24]{source="Hawlucha" special=false offensive=false movePower=60 level=24 opponentLevel=24 stab=true opponentStat=40}
+::damage[Golett’s Shadow Punch does at L25]{source="Hawlucha" special=false offensive=false movePower=60 level=25 opponentLevel=24 stab=true opponentStat=40}
+
+:::::trainer[Psychic Franz]
+ ::::pokemon[Chimecho]
+    - Swords Dance
+    - Fling
+ ::::
+ ::::pokemon[Golett]
+    - Wing Attack (x2)
+ ::::
+:::::
+
+Grab the Iron after passing by the double battle
+
+Drop Repel after exiting
+
+Go to the house on the left near the lamp post and get the Soothe Bell (Talk to Old Lady)
+
+Once you exit the house
+ - Give Hawlucha the Soothe Bell
+ - Use Protein, Iron, and HP UP
+ - :info[If only 1 massage and was bad Use PP Up on any move]{color=yellow}
+ - Heal to full with Sweet Hearts
+
+Head north to the Tower of Mastery
+
+Go straight (1st floor)
+  - Choose bottom option 
+
+Say yes to Calem.
+
+:::::::trainer[Pokémon Trainer Calem]
+  :::::pokemon[Meowstic]
+    :::if{source="Hawlucha" condition="speed=~(x/x/10+) && startingLevel=19"}
+     - X-Speed
+     - Encore (if no Fake Out/Light Screen, the run is over, heal until Light Screen?)
+     - Swords Dance x2
+     - Encore
+     - Swords Dance
+     - Wing Attack x2
+    :::
+    :::if{source="Hawlucha" condition="speed=(x/x/10+) && startingLevel=19"}
+     - Swords Dance
+     - Encore (if no Fake Out/Light Screen, the run is over, heal until Light Screen?)
+     - Swords Dance x2
+     - Encore
+     - Swords Dance
+     - Wing Attack x2
+    :::
+    :::if{source="Hawlucha" condition="speed=~(x/24+/#) && startingLevel=20"}
+     - X-Speed
+     - Encore (if no Fake Out/Light Screen, the run is over, heal until Light Screen?)
+     - Swords Dance x2
+     - Encore
+     - Swords Dance
+     - Wing Attack x2
+    :::
+    :::if{source="Hawlucha" condition="speed=(x/24+/#) && startingLevel=20"}
+     - Swords Dance
+     - Encore (if no Fake Out/Light Screen, the run is over, heal until Light Screen?)
+     - Swords Dance x2
+     - Encore
+     - Swords Dance
+     - Wing Attack x2
+    :::
+  :::::
+  :::::pokemon[Braixen]
+     - Wing Attack  
+  :::::
+  :::::pokemon[Absol]
+     - Wing Attack  
+  :::::
+:::::::
+
+Head to the gym (left side of town)
+
+Skate up the rail and battle the 1st girl you see.
+
+:::::trainer[Roller Skater Kate]
+ ::::pokemon[Meditite]
+    - Wing Attack
+ ::::
+ ::::pokemon[Mienfoo]
+    - Wing Attack
+ ::::
+:::::
+
+Go LEFT right after
+
+:::::trainer[Roller Skater Shun]
+ ::::pokemon[Pancham]
+    - Swords Dance x2
+    - Wing Attack
+ ::::
+ ::::pokemon[Throh]
+    - Wing Attack
+ ::::
+ ::::pokemon[Machoke]
+    - Wing Attack
+
+    :info[Teach Flying Press over Fling  at Lv28]{color=red}
+ ::::
+:::::
+
+Head north then west and fight the girl
+
+:::if{source="Hawlucha" condition="startingLevel=19"}
+::damage[Sawk’s Low Sweep does at L27]{source="Hawlucha" special=false offensive=false movePower=65 level=27 opponentLevel=27 stab=true opponentStat=82}
+:::
+
+:::if{source="Hawlucha" condition="startingLevel=20"}
+::damage[Sawk’s Low Sweep does at L28]{source="Hawlucha" special=false offensive=false movePower=65 level=28 opponentLevel=27 stab=true opponentStat=82}
+:::
+
+:::::::trainer[Roller Skater Rolanda]
+  :::::pokemon[Sawk]
+     - Swords Dance
+     - Wing Attack
+  :::::
+  :::::pokemon[Hariyama]
+    :::if{source="Hawlucha" condition="atk=(x/25+/7+) && startingLevel=19"}
+     - Wing Attack
+    :::
+    :::if{source="Hawlucha" condition="atk=~(x/25+/7+) && startingLevel=19"}
+     - Flying Press
+    :::
+    :::if{source="Hawlucha" condition="atk=(x/12+/#) && startingLevel=20"}
+     - Wing Attack
+    :::
+    :::if{source="Hawlucha" condition="atk=~(x/12+/#) && startingLevel=20"}
+     - Flying Press
+    :::
+  :::::
+:::::::
+
+:::if{source="Hawlucha" condition="startingLevel=19"}
+::damage[Heracross’ Take Down does L27]{source="Hawlucha" special=false offensive=false movePower=90 level=27 opponentLevel=30 stab=false opponentStat=83}
+:::
+
+:::if{source="Hawlucha" condition="startingLevel=20"}
+::damage[Heracross’ Take Down does L28]{source="Hawlucha" special=false offensive=false movePower=90 level=28 opponentLevel=30 stab=false opponentStat=83}
+:::
+Fight Dash (southwest corner)
+
+:::::::trainer[Roller Skater Dash]
+  :::::pokemon[Heracross]
+    :::if{source="Hawlucha" condition="startingLevel=19"}
+     - (Swords Dance) Wing Attack
+     ::damage[+0 Wing Attack ranges]{source="Hawlucha" special=false offensive=true movePower=60 level=27 opponentLevel=30 stab=true opponentStat=52}
+    :::
+    :::if{source="Hawlucha" condition="startingLevel=20"}
+     - (Swords Dance) Wing Attack
+     ::damage[+0 Wing Attack ranges]{source="Hawlucha" special=false offensive=true movePower=60 level=28 opponentLevel=30 stab=true opponentStat=52}
+    :::
+  :::::
+:::::::
+
+Heal if low HP!
+
+
+:::::::trainer[Leader Korrina]{info="Important: Remember if you X-Attack here or not" infoColor=yellow}
+  :::::pokemon[Mienfoo]
+    :::if{source="Hawlucha" condition="atk=(x/x/20+) && startingLevel=19"}
+     - Swords Dance (Again if Fake Out)
+     - Wing Attack
+    :::
+    :::if{source="Hawlucha" condition="atk=(x/x/21+) && startingLevel=20"}
+     - Swords Dance (Again if Fake Out)
+     - Wing Attack
+    :::
+    :::if{source="Hawlucha" condition="atk=~(x/x/20+) && startingLevel=19"}
+     - X Attack
+     - Swords Dance
+     - Wing Attack
+    :::
+    :::if{source="Hawlucha" condition="atk=~(x/x/21+) && startingLevel=20"}
+     - X Attack
+     - Swords Dance
+     - Wing Attack
+    :::
+  :::::
+:::::::
+
+Go back to Tower of Mastery
+
+Pickup TM47 Low Sweep
+  - 4th Floor Ace Trainer
+
+:::::trainer[Successor Korrina]
+ ::::pokemon[Lucario]
+    - [Mega Evolve] Metal Sound x2 
+ ::::
+:::::
+
+Say Yes to Korrina and do NOT nickname Lucario
+
+Head down the tower to Route 12
+
+Talk to the breeder and proceed to spam 
+
+:::::card
+#### - Bike to the water (bottom right corner) and once you reach it:
+####  - Heal Hawlucha to full
+####  - Repel
+####  - Teach Rock Smash to Lapras (Slot 1)
+####  - Teach Surf to Lapras (Slot 2)
+####  - Teach Strength to Lapras (Slot 3)
+####  - Teach Low Sweep to Lucario over Power-Up Punch (Slot 1)
+:::if{source="Hawlucha" condition="speed=(12+/#/#) && startingLevel=19"}
+  - Teach Rock Tomb to Lucario over Metal Sound (Slot 3)
+:::
+:::if{source="Hawlucha" condition="speed=(3+/#/#) && startingLevel=20"}
+  - Teach Rock Tomb to Lucario over Metal Sound (Slot 3)
+:::
+:::if{source="Hawlucha" condition="speed=~(12+/#/#) && startingLevel=19"}
+  - Teach Shadow Claw over Metal Sound
+:::
+:::if{source="Hawlucha" condition="speed=~(3+/#/#) && startingLevel=20"}
+  - Teach Shadow Claw over Metal Sound
+:::
+:::::
+
+Surf south-east past the backpacker
+
+Ride a Skiddo to the stairs near Coumarine City avoid optional trainers
+
+  - Go right (ledge), then down-right through opening in fence
+
+Head east to the monorail station and ride the monorail
+
+Head to the gym for a rival fight
+
+:::::::trainer[Pokémon Trainer Calem]
+  :::::pokemon[Meowstic]
+    :::if{source="Hawlucha" condition="speed=(12+/#/#) && startingLevel=19"}
+     - X-Attack
+     - Encore on Light Screen / Fake Out
+     - Swords Dance
+     - Wing Attack x2
+    :::
+    :::if{source="Hawlucha" condition="speed=(3+/#/#) && startingLevel=20 && atk=~(x/28+/8+)"}
+     - X-Attack
+     - Encore on Light Screen / Fake Out
+     - Swords Dance
+     - Wing Attack x2
+    :::
+    :::if{source="Hawlucha" condition="speed=(3+/#/#) && startingLevel=20 && atk=(x/28+/8+)"}
+     - X-Attack
+     - Encore on Light Screen / Fake Out
+     - Swords Dance x2
+     - Wing Attack 
+    :::
+    :::if{source="Hawlucha" condition="speed=~(12+/#/#) && startingLevel=19"}
+     - Switch to Lucario
+     - Swords Dance 
+     - Shadow Claw
+    :::
+    :::if{source="Hawlucha" condition="speed=~(3+/#/#) && startingLevel=20"}
+     - Switch to Lucario
+     - Swords Dance 
+     - Shadow Claw
+    :::
+  :::::
+  :::::pokemon[Braixen]
+    :::if{source="Hawlucha" condition="speed=(12+/#/#) && startingLevel=19"}
+     - Flying Press
+    :::
+    :::if{source="Hawlucha" condition="speed=(3+/#/#) && startingLevel=20 && atk=~(x/28+/8+)"}
+     - Flying Press
+    :::
+    :::if{source="Hawlucha" condition="speed=(3+/#/#) && startingLevel=20 && atk=(x/28+/8+)"}
+     - Wing Attack 
+    :::
+    :::if{source="Hawlucha" condition="speed=~(12+/#/#) && startingLevel=19"}
+     - Bone Rush (+ Low Sweep)
+    :::
+    :::if{source="Hawlucha" condition="speed=~(3+/#/#) && startingLevel=20"}
+     - Bone Rush (+ Low Sweep)
+    :::
+  :::::
+  :::::pokemon[Absol]
+    :::if{source="Hawlucha" condition="speed=(12+/#/#) && startingLevel=19"}
+     - Flying Press
+    :::
+    :::if{source="Hawlucha" condition="speed=(3+/#/#) && startingLevel=20 && atk=~(x/28+/8+)"}
+     - Flying Press
+    :::
+    :::if{source="Hawlucha" condition="speed=(3+/#/#) && startingLevel=20 && atk=(x/28+/8+)"}
+     - Wing Attack
+    :::
+    :::if{source="Hawlucha" condition="speed=~(12+/#/#) && startingLevel=19"}
+     - Low Sweep
+    :::
+    :::if{source="Hawlucha" condition="speed=~(3+/#/#) && startingLevel=20"}
+     - Low Sweep
+    :::
+  :::::
+:::::::
+
+Go right after the first climbing rope.
+
+:::::trainer[Pokémon Ranger Chaise]
+ ::::pokemon[Simisage]
+    -  Flying Press
+ ::::
+:::::
+
+When you next have a choice of directions, go left.
+
+:::::trainer[Pokémon Ranger Brooke]
+ ::::pokemon[Roselia]
+    - Wing Attack
+ ::::
+ ::::pokemon[Wormadam]
+    - Wing Attack
+ ::::
+:::::
+
+After the second climbing rope, go right.
+
+:::::::trainer[Pokémon Ranger Twiggy]{info="Heal paralysis"}
+  :::::pokemon[Gloom]
+    - Swords Dance (x2) + Wing Attack
+    - Wing Attack
+  :::::
+  :::::pokemon[Exeggutor]
+    - Wing Attack
+  :::::
+:::::::
+
+
+Heal to full if can not live Acrobatics from Jumpluff / Take Down from Gogoat
+
+Heal status
+
+:::if{source="Hawlucha" condition="speed=(18-/x/x) && startingLevel=19"}
+  - Move Lucario to the front
+:::
+:::if{source="Hawlucha" condition="speed=(10-/x/x) && startingLevel=20"}
+  - Move Lucario to the front
+:::
+:::if{source="Hawlucha" condition="speed=~(12+/#/#) && startingLevel=19"}
+  - Teach Rock Tomb over Shadow Claw (slot 3)
+:::
+:::if{source="Hawlucha" condition="speed=~(3+/#/#) && startingLevel=20"}
+   - Teach Rock Tomb over Shadow Claw (slot 3)
+:::
+
+:::if{source="Hawlucha" condition="startingLevel=19"}
+::damage[Jumpluff’s Acrobatics does L32]{source="Hawlucha" special=false offensive=false movePower=55 level=32 opponentLevel=30 stab=true opponentStat=44}
+::::
+:::if{source="Hawlucha" condition="startingLevel=20"}
+::damage[Jumpluff’s Acrobatics does L33]{source="Hawlucha" special=false offensive=false movePower=55 level=33 opponentLevel=30 stab=true opponentStat=44}
+:::
+
+:::::::trainer[]
+  :::::pokemon[Jumpluff]
+    :::if{source="Hawlucha" condition="speed=~(18-/x/x) && startingLevel=19"}
+      - Swords Dance 
+      - Wing Attack
+      - If Hawlucha dies, switch to Lucario
+        - [Mega] Swords Dance
+        - Rock Tomb 
+    :::
+    :::if{source="Hawlucha" condition="speed=~(10-/x/x) && startingLevel=20"}
+      - Swords Dance 
+      - Wing Attack
+      - If Hawlucha dies, switch to Lucario
+        - [Mega] Swords Dance
+        - Rock Tomb 
+    :::
+    :::if{source="Hawlucha" condition="speed=(18-/x/x) && startingLevel=19"}
+      - Swords Dance 
+      - Rock Tomb
+    :::
+    :::if{source="Hawlucha" condition="speed=(10-/x/x) && startingLevel=20"}
+      - Swords Dance 
+      - Rock Tomb 
+    :::
+  :::::
+  :::::pokemon[Gogoat]
+    :::if{source="Hawlucha" condition="speed=~(18-/x/x) && startingLevel=19"}
+      - Flying Press
+      - If Lucario
+        - Low Sweep
+    :::
+    :::if{source="Hawlucha" condition="speed=~(10-/x/x) && startingLevel=20"}
+      -  Flying Press
+      - If Lucario
+        - Low Sweep
+    :::
+    :::if{source="Hawlucha" condition="speed=(18-/x/x) && startingLevel=19"}
+      - Switch to Hawlucha
+      - Swords Dance
+      - Flying Press
+    :::
+    :::if{source="Hawlucha" condition="speed=(10-/x/x) && startingLevel=20"}
+      - Switch to Hawlucha
+      - Swords Dance
+      - Flying Press
+    :::
+  :::::
+  :::::pokemon[Weepinbell]
+    :::if{source="Hawlucha" condition="speed=~(18-/x/x) && startingLevel=19"}
+      - Wing Attack
+      - If Lucario
+        - Low Sweep
+    :::
+    :::if{source="Hawlucha" condition="speed=~(10-/x/x) && startingLevel=20"}
+      - Wing Attack
+      - If Lucario
+        - Low Sweep
+    :::
+    :::if{source="Hawlucha" condition="speed=(18-/x/x) && startingLevel=19"}
+      - Wing Attack
+    :::
+    :::if{source="Hawlucha" condition="speed=(10-/x/x) && startingLevel=20"}
+      - Wing Attack
+    :::
+  :::::
+:::::::
+
+Head to the monorail again (down-right)
+
+Head north to the hotel and talk to the girl with the Marril to get the Lucky Egg
+  - Bike around for a bit if still not enough afterwards
+
+:::card
+Once outside Bag:
+- Heal Lucario if got hit by Acrobatics.
+- Teach Fly to Hawlucha over Flying Press
+- Turn off Experience Share.
+- Give Lucario Lucky Egg.
+- Swap Hawlucha with Lucario.
+- Fly to Coumarine.
+:::
+
+Enter the center and talk to the left vendor
+
+:::card
+### Shopping (right):
+> #### Buy
+> - 11 Max Repels (^^) (12 if unconfident in movement)
+> - 1 Escape Rope (^^^)
+> - 11 Full Heals (^)
+> - 3 Revives (v<)
+> - MAX Hyper Potions (^^)
+:::
+
+Head down-left to Route 13 
+  - (No Wind: xx:10, xx:30, xx:50 for 10 minutes)
+
+![Route 13 movement](route13movement.gif)
+
+Bike south after getting off the rail, and take the ledge and head left
+
+Talk to big rock before the Flare Grunt for hidden Power Plant Pass
+
+:::::trainer[Team Flare Grunt]
+ ::::pokemon[Houndoom]
+    - Swords Dance
+    - Low Sweep
+ ::::
+ ::::pokemon[Golbat]
+    - Rock Tomb
+ ::::
+:::::
+
+Heal to full if hit by Fire Fang or Acrobatics. Enter Power Plant
+
+:::::trainer[Team Flare Grunt]
+ ::::pokemon[Scraggy]
+    - Low Sweep
+ ::::
+ ::::pokemon[Croagunk]
+    - Bone Rush
+ ::::
+:::::
+
+:::::trainer[Team Flare Grunt]
+ ::::pokemon[Croagunk]{info="Revenge does 42(44)" infoColor=blue}
+    - Swords Dance
+    - Low Sweep
+ ::::
+ ::::pokemon[Golbat]{info="Full Heal if confused" infoColor=blue}
+    - Rock Tomb
+ ::::
+:::::
+
+:::::trainer[Team Flare Grunt]
+ ::::pokemon[Mightyena]{info="12/16 Range" infoColor=red}
+    - Low Sweep
+ ::::
+:::::
+
+:::::trainer[Team Flare Grunt]
+ ::::pokemon[Scraggy]
+    - Low Sweep
+ ::::
+ ::::pokemon[Golbat]
+    - Rock Tomb
+      - Give up on Me First, heal if necessary
+ ::::
+:::::
+
+:::::trainer[Team Flare Grunt]
+ ::::pokemon[Golbat]{info="Wing Attack does 27(29)" infoColor=blue}
+    - Swords Dance
+    - Rock Tomb
+ ::::
+ ::::pokemon[Golbat]
+    - Low Sweep
+ ::::
+:::::
+
+:::::trainer[Team Flare Grunt]
+ ::::pokemon[Swalot]{info="Body Slam does 10-11/(12)" infoColor=blue}
+    - Bone Rush (5 hits needed)
+ ::::
+:::::
+
+:::::trainer[Team Flare Grunt]
+ ::::pokemon[Liepard]
+    - Low Sweep
+ ::::
+ ::::pokemon[Swalot]
+    - Bone Rush (+ Rock Tomb)
+ ::::
+:::::
+
+:info[Heal if 20 HP or less]{color=yellow}
+
+:::::trainer[Team Flare Grunt]
+ ::::pokemon[Croagunk]{info="Sucker Punch does 8/(9)" infoColor=blue}
+    -  Bone Rush
+ ::::
+ ::::pokemon[Scraggy]
+    - Low Sweep    
+ ::::
+ ::::pokemon[Liepard]{info="Fake Out can do 6" infoColor=blue}
+    - Low Sweep    
+ ::::
+:::::
+
+:::::trainer[Team Flare Admin]
+ ::::pokemon[Houndoom]{info="Fire Fang can do 84 (86)" infoColor=blue}
+    - Low Sweep    
+ ::::
+:::::
+
+:::::trainer[Team Flare Aliana]
+ ::::pokemon[Mightyena]{info="Assurance can do 21" infoColor=blue}
+    - Low Sweep x2  
+ ::::
+:::::
+
+:info[**Free heal**]{color=pink}
+
+Leave the Power Plant then bike right-down to Lumiose City
+
+After entering city, go straight (follow the tower)
+
+Choose the bottom option **"Who knows?"** when answering Shauna's question
+
+Head north to Prism Tower
+
+:::::trainer[Schoolboy Finnian (Elevator 3)]
+ ::::pokemon[Dedenne]
+    - Bone Rush (3 hits) (+ Rock Tomb)
+ ::::
+:::::
+
+:::::trainer[Rising Star Estel (Elevator 1)]
+ ::::pokemon[Raichu]
+    - Bone Rush (3 hits) (+ Rock Tomb)
+ ::::
+::::: 
+
+:::::trainer[Ace Trainer Rico (Elevator 3)]{info="Thunder Punch does: (33)/34-39/(40)" infoColor=blue}
+ ::::pokemon[Ampharos]
+    - Bone Rush (5 hits) (+ Rock Tomb if only 4)
+ ::::
+:::::
+
+:::::trainer[Poké Fan Lydie (Elevator 2)]
+ ::::pokemon[Plusle]
+    - Low Sweep
+      - Teach Aura Sphere over Low Sweep (Slot 1)
+      - If already taught Aura Sphere, use Bone Rush.
+ ::::
+:::::
+
+:info[Heal if less than 40 HP]{color=yellow}
+
+:::::trainer[Leader Clemont]
+ ::::pokemon[Emolga]
+    - Swords Dance
+    - Rock Tomb
+ ::::
+ ::::pokemon[Magneton]
+    - Bone Rush 
+ ::::
+ ::::pokemon[Heliolisk]
+    - Aura Sphere
+ ::::
+:::::
+
+- Go straight down to elevator
+  - [PICK 1F]
+- Head past Diggersby to the Flare Cafe
+   - To the left after exiting 
+
+- Yes to Sycamore
+:::card
+After exiting cafe:
+  - 2nd Holo cutscene
+  - Turn left
+  - Keep going straight to statue, then turn left there
+  - Go straight through the gate.
+:::
+:::card
+Before exiting Lumiose City:
+  - Heal to full
+  - Teach Shadow Claw over Bone Rush (Slot 4)
+  - Max Repel 
+     - Do NOT reapply!
+:::
+
+:::::trainer[Pokémon Trainer Calem]
+ ::::pokemon[Meowstic]
+    - X-Attack
+    - Shadow Claw
+ ::::
+ ::::pokemon[Delphox]
+    - Shadow Claw
+ ::::
+ ::::pokemon[Absol]{info="2/16 range with Light Screen" infoColor=red}
+    - Aura Sphere (x2 if Light Screen)
+ ::::
+:::::
+
+Pick up **Rare Candy** behind the swing
+
+- Avoid all leaves!
+  - Dodge first Ranger with bike
+  - Go up When you see the next male Ranger
+  - Turn left BEFORE the leaves or you'll get stuck 
+  - Hug the TOP ROW after dodging
+  - At next patch of mud, go north around the eastern border
+  - then cut across west just after the tree trunks
+
+![Route 14 Movement part 1](route14movement1.gif)
+![Route 14 Movement part 2](route14movement2.gif)
+
+**Don't tip** the storyteller 
+
+Head north to Laverre City
+
+Go north across the bridge to the Gym
+
+:::Card
+- Gym Puzzle
+  - Bottom Left
+  - Bottom Left
+  - Bottom Right
+  - Top Left
+:::
+:::::trainer[Leader Valerie]
+ ::::pokemon[Mawile]
+    - Swords Dance x3
+    - Aura Sphere (Shadow Claw if no Iron Defense)
+      - If Iron Defense turn 1 or 2, Shadow Claw the turn after Iron Defense
+ ::::
+ ::::pokemon[Mr. Mime]
+    - Shadow Claw
+ ::::
+ ::::pokemon[Sylveon]{info="15/16 Range" infoColor=red}
+    - Shadow Claw
+ ::::
+:::::
+
+:info[Heal if 34/(36) or below]{color=yellow}
+
+- Follow Trevor to the Poke Ball Factory
+  - Left and Up
+- Follow the conveyor belts all the way to the en
+- Go up the stairs, then go left and down when the path forks
+- Press A at the computer to reverse the conveyor direction
+- Go back on the conveyor, then go up the stairs and enter the little bunker.
+
+:::::trainer[Team Flare Admin]
+ ::::pokemon[Scraggy]
+    - Aura Sphere
+ ::::
+ ::::pokemon[Houndoom]
+    - Aura Sphere
+ ::::
+:::::
+
+
+Say **Yes** to Calem
+
+:::::trainer[Team Flare Double]{info="Remeber HP after" infoColor=pink}
+ ::::pokemon[Liepard]
+    - Aura Sphere
+ ::::
+ ::::pokemon[Manectric]{info="Spark does 36/(38)" infoColor=blue}
+    - Aura Sphere x2
+ ::::
+:::::
+
+- Accept Master Ball
+  - MASH A
+
+Leave the factory 
+  - Down stairs then straight down
+
+### Shopping (right):
+> #### Buy
+> - 6 Proteins **do not use them yet**
+
+:info[Heal if 106 (109) HP or below]{color=yellow}
+
+Max Repel → Keep applied until off of Mamoswine
+
+- Head east of Laverre City
+  - Go right 
+  - Then south behind the Hex Maniac 
+  - Go south-east across the bridge 
+  - Then go through the flowers behind Mysterious Sisters
+  - Head south-east again once you've crossed the next bridge
+
+![Route 15 Movement part 1](route15movement1.gif)
+![Route 15 Movement part 2](route15movement2.gif)
+
+- Say Yes to Sycamore
+  - Head north up the stairs 
+  - Go north-east 
+  - Then northwest 
+  - After the cutscene to the Frost Cavern
+
+![Frost Cavern Movement part 1](frostcavernmovement1.gif)
+![Frost Cavern Movement part 2](frostcavernmovement2.gif)
+
+![Frost Cavern Movement part 1](frostcavernmovement3.gif)
+![Frost Cavern Movement part 2](frostcavernmovement4.gif)
+
+![Frost Cavern Movement part 1](frostcavernmovement5.gif)
+
+:::::trainer[Team Flare Grunt]
+ ::::pokemon[Golbat]
+    - Swords Dance
+      - If not hit by Acrobatics
+      - Swords Dance again
+      - Shadow Claw
+    - Otherwise
+    - Rock Tomb
+ ::::
+ ::::pokemon[Manectric]
+    - (2 Swords Dances) Rock Tomb 
+    - (1 Swords Dance)  Shadow Claw (+ Aura Sphere) 
+    - Give up on Calm Mind
+ ::::
+:::::
+
+:::::trainer[Team Flare Mable]{info="Remember HP after" infoColor=pink}
+ ::::pokemon[Houndoom]{info="15/16 range" infoColor=red}
+    - Aura Sphere
+ ::::
+:::::
+
+**If used PP Up earlier**
+  - Grab hidden PP Up 
+![Frost Cavern PP Up](frostpp.png)
+
+- Bag
+  - Heal to full
+  - Escape Rope
+
+- Head to Dendemille Town 
+  - Then to the bottom-right exit
+  - Head south-east through the deep snow and boulders
+  - Drop Max Repel once off Mamoswine
+  - At the grassy area 
+  - Head north along the ledge 
+  - Pick up Rare Candy
+
+- ANISTAR CITY
+  - Head north-east towards the gym.
+
+:::::trainer[Pokémon Trainer Calem]
+ ::::pokemon[Meowstic]
+    - Swords Dance
+    - If Fake Out
+      - Swords Dance x2
+      - Shadow Claw
+    - Otherwise
+      - Shadow Claw
+ ::::
+ ::::pokemon[Delphox]
+    - Shadow Claw
+ ::::
+ ::::pokemon[Jolteon]{info="Quick Attack can do 7/(8), Discharge 63/(64)" infoColor=blue}
+    - If Faked out
+      - Shadow Claw
+    - Otherwise
+      - Rock Tomb
+      - Shadow Claw
+ ::::
+ ::::pokemon[Absol]{info="Quick Attack can do 14" infoColor=blue}
+    - Aura Sphere
+ ::::
+:::::
+
+:info[Free Heal]{color=pink}
+
+
+**ANISTAR GYM**
+
+:info[Blue path]{color=blue} Hold up, left at intersection.
+
+:::::trainer[Psychic Paschal]{info="Remember HP after" infoColor=pink}
+ ::::pokemon[Exeggutor]
+    - Shadow Claw x2
+ ::::
+:::::
+
+:info[Heal if 59 (61) or less HP]{color=yellow}
+
+
+GYM Puzzle
+
+- :info[Green path]{color=green} Hold right, up at intersection.
+
+- :info[Blue path]{color=Blue} Hold down, left at intersection.
+
+- :info[Green path]{color=green} Hold down, left at intersection.
+
+- :info[Blue path]{color=Blue} Hold down, right at 2nd intersection, down-right at 3rd intersection.
+
+- :info[Green path]{color=green} Hold up.
+
+- :info[Purple path]{color=Purple} Hold up-left, go around.
+
+- :info[Green path]{color=green} Hold left, up at intersection.
+
+- :info[Purple path]{color=Purple} Hold up-right.
+
+:::::trainer[Leader Olympia]
+ ::::pokemon[Sigilyph]{info="Psychic does 51-58 (60)" infoColor=blue}
+    - Swords Dance (x3 if Reflect)
+    - Shadow Claw
+ ::::
+ ::::pokemon[Slowking]{info="15/16 range" infoColor=red}
+    - Shadow Claw
+ ::::
+ ::::pokemon[Meowstic]{info="Fake Out can do 7/(8)" infoColor=blue}
+    - Shadow Claw
+ ::::
+:::::
+
+- Teleport back to entrance
+  - MASH A
+- :info[Heal if 28 (29) or lower]{color=yellow}
+  - _If already level 51_ 
+    - From the Restore menu
+    - Use 2 Rare Candies 
+    - 6 Proteins
+
+- Fly to the center of Lumiose City
+  - Bike to Flare Cafe
+    - LEFT
+  - Talk to the waiters to battle them (male first)
+
+:::::trainer[Team Flare Grunt]
+ ::::pokemon[Scrafty]{info="5/16 range at L50, 14/16 at L53" infoColor=red}
+    - Aura Sphere (x2)
+      - Revive Lucario on Hawlucha if died
+      - Wing Attack
+ ::::
+:::::
+
+:::::trainer[Team Flare Grunt]
+ ::::pokemon[Liepard]
+    - Aura Sphere
+      - Give up on Heal Pulse
+ ::::
+:::::
+
+- Before entering the bookcase
+  - Use 2 Rare Candies
+  - Use all 6 Protein
+  - Heal if 90 or less HP
+
+:::::trainer[Team Flare Lysandre]
+ ::::pokemon[Mienfoo]
+    - Aura Sphere
+ ::::
+ ::::pokemon[Pyroar]
+    - Aura Sphere
+ ::::
+ ::::pokemon[Gyarados]
+    - Switch to Lapras
+    - Rock Smash
+      - If no Outrage switch to Hawlucha 
+      - Revive Lapras and try again
+    - Switch to Lucario
+    - Swords Dance
+    - Rock Tomb
+ ::::
+ ::::pokemon[Murkrow]
+    - Aura Sphere
+ ::::
+:::::
+
+:info[Heal to 32 or 70 if you wanna be safe]{color=yellow}
+
+Take the top-left arrow. Go up
+
+:::::trainer[Team Flare Grunt]
+ ::::pokemon[Swalot]{info="+2 Spit Up does 32/(33) infoColor=blue"}
+    - Swords Dance x2/x3
+    - Shadow Claw
+ ::::
+:::::
+
+:info[Heal to 46 (47+)]{color=yellow}
+
+Take :info[green]{color=green} portal
+
+:::::trainer[Team Flare Aliana]
+ ::::pokemon[Mightyena]
+    - Aura Sphere
+ ::::
+ ::::pokemon[Druddigon]{info="Shadow Claw does 45/(46)" infoColor=blue}
+    - Aura Sphere x2
+ ::::
+:::::
+
+:::card{theme=neutral}
+Portals
+
+:info[Green]{color=green}
+- ^
+- :info[>>] 
+  - Avoid grunt!
+- v
+  - To the left    
+- Battle grunt above you
+:::
+
+:::::trainer[Team Flare Grunt]
+ ::::pokemon[Liepard]
+    - Aura Sphere
+ ::::
+ ::::pokemon[Mightyena]
+    - Aura Sphere
+    - Teach Close Combat over Shadow Claw (Slot 4)
+ ::::
+:::::
+
+:info[Heal to full if 66 (68) HP or less]{color=yellow}
+
+Go up/right and battle grunt 
+  - NO arrows yet
+
+:::::trainer[Team Flare Grunt]
+ ::::pokemon[Houndoom]
+    - Aura Sphere
+ ::::
+ ::::pokemon[Toxicroak]{info="Sucker Punch does 18/(19)" infoColor=blue}
+    - Swords Dance 
+    - Close Combat 
+ ::::
+:::::
+
+:info[Heal to full if 64 (66) HP or less]{color=yellow}
+
+:::card{theme=neutral}
+Portals
+
+:info[Green]{color=green}
+- :info[>]
+- :info[>] 
+- :info[v]
+  - Avoid  Spinner Before
+- Battle grunt to the right
+- :info[v]
+:::
+
+:::::trainer[Team Flare Grunt]
+ ::::pokemon[Golbat]{info="Acrobatics does 64/(66)" infoColor=blue}
+    - Swords Dance
+    - Rock Tomb
+ ::::
+:::::
+
+:info[Heal to full if 66/(68) or less]{color=yellow}
+
+Take 
+:info[Green Portal]{color=green}
+right after fight
+
+Battle grunt to the upper right
+
+:::::trainer[Team Flare Grunt]
+ ::::pokemon[Toxicroak]
+    - Swords Dance 
+    - Close Combat
+ ::::
+ ::::pokemon[Liepard]{info="Sucker Punch does 18/(19)" infoColor=blue}
+    - Aura Sphere
+ ::::
+:::::
+
+- Go to the room to the right
+  - Say No to Mable
+
+:::::trainer[Team Flare Mable]
+ ::::pokemon[Houndoom]
+    - Aura Sphere
+ ::::
+ ::::pokemon[Weavile]
+    - Aura Sphere
+ ::::
+:::::
+
+Leave the room
+  
+- Portals
+  - Go down and take the left arrow
+  - Take the down arrow on the right
+  - Go up-left, take the down arrow
+
+- Go in the elevator to B2
+  - MASH A
+
+:info[Enjoy 3 minute break]{color=pink}
+- Take elevator to B3 and meet up with Xerosic
+
+:::::trainer[Team Flare Xerosic]
+ ::::pokemon[Crobat]{info="Air Slash does 36/(37)" infoColor=blue}
+    - Swords Dance 
+    - Rock Tomb 
+ ::::
+ ::::pokemon[Malamar]
+    - Close Combat
+ ::::
+:::::
+
+Push the 
+:info[red]{color=red}
+button
+
+-  Leave Lysandre Labs 
+  - B1 - MASH A
+
+- Fly to Geosenge Town
+- PC Heal Lucario and Lapras
+   - Swap Lucario and Chespin
+   - Swap Lucario and Chespin
+   - Swap Lapras and Chespin
+   - Withdraw everything
+- Head North-West
+
+:::::trainer[Team Flare Grunt]
+ ::::pokemon[Manectric]
+    - Aura Sphere
+ ::::
+ ::::pokemon[Scrafty]
+    - Aura Sphere
+ ::::
+ ::::pokemon[Golbat]{info="4/16 range at L57, 9/16 at L58" infoColor=red}
+    - Rock Tomb (+ Aura Sphere) 
+ ::::
+:::::
+
+:info[Heal if at 88 (90) HP or lower]{color=yellow}
+
+Keep going North-West
+
+:::::trainer[Team Flare Lysandre]
+ ::::pokemon[Mienfoo]
+    - Close Combat
+ ::::
+ ::::pokemon[Pyroar]
+    - Aura Sphere
+ ::::
+ ::::pokemon[Gyarados]
+    - Switch to Lapras
+    - Rock Smash
+      - If not full HP and no Outrage switch to Squirtle 
+      - Revive Lapras 
+    - Switch to Lucario
+    - Swords Dance
+    - Rock Tomb
+ ::::
+ ::::pokemon[Honchkrow]
+    - Close Combat
+ ::::
+:::::
+
+:info[Heal to full if bellow half health]{color=yellow}
+
+:::::trainer[Team Flare Double 1]
+ ::::pokemon[Liepard]
+    - Aura Sphere
+ ::::
+ ::::pokemon[Toxicroak]
+    - Heal Stall
+ ::::
+:::::
+
+:::::trainer[Team Flare Double 2]
+ ::::pokemon[Mightyena]
+    - Aura Sphere
+ ::::
+ ::::pokemon[Manectric]{info="Discharge does 49 (51)" infoColor=blue}
+    - Aura Sphere
+    - Give up on Dragon Pulse
+ ::::
+:::::
+     
+- Bag
+  - Heal to full
+  - Use PP Up on Close Combat **(DO NOT MASH A)**
+
+Say Yes to Calem
+
+:::::trainer[Team Flare Double 3]
+ ::::pokemon[Scrafty]
+    - Aura Sphere
+ ::::
+ ::::pokemon[Houndoom]{info="Flamethrower can do 150 (152)" infoColor=blue}
+    - Aura Sphere
+ ::::
+:::::
+
+:::::trainer[Team Flare Admin 1 (Right)]
+ ::::pokemon[Mightyena]
+    - Aura Sphere
+ ::::
+ ::::pokemon[Houndoom]
+    - Aura Sphere
+ ::::
+:::::
+
+:::::trainer[Team Flare Admin 2 (Back)]
+ ::::pokemon[Golbat]{info="Acrobatics does 70 (72)" infoColor=blue}
+    - Swords Dance 
+    - Rock Tomb    
+ ::::
+:::::
+
+:::::trainer[Team Flare Admin 3 (Left)]
+ ::::pokemon[Swalot]{info="57/(58) for -1 Sp.Def Spit Up" infoColor=blue}
+    - Swords Dance x2 
+    - Close Combat x2
+ ::::
+:::::
+
+:::::trainer[Team Flare Admin 4 (Middle)]
+ ::::pokemon[Liepard]
+    - Aura Sphere
+ ::::
+ ::::pokemon[Manectric]
+    - Close Combat
+ ::::
+:::::
+
+Catch Xerneas with Master Ball
+
+- Press B when asked if you want to add him to your party
+  - A to confirm. 
+
+:info[Free heal]{color=pink}
+
+:::::trainer[Team Flare Lysandre]
+ ::::pokemon[Mienfoo]
+    - Close Combat
+ ::::
+ ::::pokemon[Pyroar]
+    - Aura Sphere
+ ::::
+ ::::pokemon[Honchkrow]
+    - Swords Dance 
+    - Rock Tomb
+ ::::
+ ::::pokemon[Gyarados]
+    - Close Combat
+:::::
+
+- Fly to Anistar City.
+  - Take the bottom right exit
+  - When you see the Route 18 sign 
+  - Heal to full and Max Repel
+  - Keep these repels up for the rest of the game
+
+- Route 18
+  - Hug bottom of the grass 
+  - Stay on the bottom of the bridge to avoid an optional
+  - Go in the grass to avoid the hiker
+  - Just go south once you go down the stairs
+
+![Route 18 movement](route18movement.gif)
+
+:::::trainer[Pokémon Professor Sycamore]{info="Remember HP after" infoColor=pink}
+ ::::pokemon[Venusaur]
+    - Swords Dance
+    - If Damaged
+      - Swords Dance
+      - Close Combat
+    - Otherwise
+      - Close Combat (Aura Sphere)
+ ::::
+ ::::pokemon[Charizard]
+    - Rock Tomb
+ ::::
+ ::::pokemon[Blastoise]
+    - Close Combat (or Aura Sphere x2)
+ ::::
+:::::
+
+:info[Heal at 46 HP or below]{color=yellow}
+
+
+- Keep heading south.
+  - Go up the stairs at the Route 19 sign 
+  - Then just follow the path around 
+  - Say Yes to Shauna
