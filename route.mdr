@@ -273,7 +273,7 @@ Grab the PP Up in the flowers **STRAIGHT DOWN** after battle
 
 Enter Connecting Cave via southern entrance.
 
-Get a :info[free heal]{color=pink} from the Scientist if :info[low HP or paralyzed]{color=yellow}
+Get a :info[**Free heal**]{color=pink} from the Scientist if :info[low HP or paralyzed]{color=yellow}
 
 Go left instead and jump down some ledges to grab the HP Up
 
@@ -288,7 +288,7 @@ Go in and out of the Pokémon Center for the death warp.
 Go to the Fossil Lab then head right to Route 9
   - Say YES to the scientist
 :::
-:info[Free Heal]{color=pink} @ Pokemon Ranger if needed
+:info[**Free heal**]{color=pink} @ Pokemon Ranger if needed
 
 Drop Repel after Rhyhorn 
 
@@ -1375,8 +1375,7 @@ Max Repel → Keep applied until off of Mamoswine
  ::::
 :::::
 
-:info[Free Heal]{color=pink}
-
+:info[**Free heal**]{color=pink}
 
 **ANISTAR GYM**
 
@@ -1736,7 +1735,7 @@ Catch Xerneas with Master Ball
 - Press B when asked if you want to add him to your party
   - A to confirm. 
 
-:info[Free heal]{color=pink}
+:info[**Free heal**]{color=pink}
 
 :::::trainer[Team Flare Lysandre]
  ::::pokemon[Mienfoo]
@@ -1791,3 +1790,472 @@ Catch Xerneas with Master Ball
   - Go up the stairs at the Route 19 sign 
   - Then just follow the path around 
   - Say Yes to Shauna
+
+:::::trainer[Pokémon Trainer Shauna]
+ ::::pokemon[Delcatty]
+    - Aura Sphere
+ ::::
+ ::::pokemon[Goodra]
+    - Close Combat
+ ::::
+ ::::pokemon[Greninja]
+    - Aura Sphere
+ ::::
+:::::
+
+:::::trainer[Pokémon Trainer Tierno]
+ ::::pokemon[Talonflame]
+    - Rock Tomb
+ ::::
+ ::::pokemon[Crawdaunt]
+    - If can tank 100 / (102)
+      - Swords Dance
+    - Otherwise
+      - Aura Sphere
+ ::::
+ ::::pokemon[Roserade]{info="Petal Dance can do 48" infoColor=blue}
+    - If didn’t Swords Dance yet
+      - Swords Dance
+    - Close Combat
+    - Give up on Extreme Speed
+ ::::
+:::::
+
+:info[**Free heal**]{color=pink}
+
+:::::trainer[Pokémon Trainer Trevor]
+ ::::pokemon[Raichu]
+    -  Swords Dance (+ heal paralysis)
+    - Rock Tomb
+ ::::
+ ::::pokemon[Florges]
+    - Close Combat
+ ::::
+ ::::pokemon[Aerodactyl]
+    - Close Combat
+    - Rock Tomb Aerodactyl if you have an X-Attack left
+ ::::
+:::::
+
+:info[Heal if 71 or less HP]{color=yellow}
+
+Keep following the path
+
+:::card{theme=neutral}
+- SNOWBELLE CITY
+  - Go left along the bottom edge. 
+  - Take the stairs south when you see them 
+  - Go past the guy and enter the woods
+
+- Room-by-Room Path
+  - Down
+  - Down-Left
+  - Through the grass
+  - Up-Left-Down 
+  - Above the girl
+  - Down
+  - All the way Down-Left
+![Snowbelle Woods](snowbellewoods.png)
+:::
+
+MASH A during Wulfric's dialogue
+
+Fly back to Snowbelle City
+
+- SNOWBELLE GYM
+  - Go down left stairs
+
+:::::trainer[Ace Trainer Imelda]
+ ::::pokemon[Sneasel]
+    - Aura Sphere
+ ::::
+ ::::pokemon[Cloyster]
+    - Aura Sphere
+ ::::
+::::: 
+
+:info[**Pink x2**]{color=pink}
+:info[**Go to blue platform**]{color=blue}
+
+:::::trainer[Ace Trainer Viktor]
+ ::::pokemon[Delibird]
+    - Aura Sphere
+ ::::
+ ::::pokemon[Mamoswine]
+    - Aura Sphere
+ ::::
+:::::
+
+:info[**Blue x3**]{color=blue}
+:info[**Pink x3**]{color=pink}
+
+Head up and right to the
+:info[**green platform**]{color=green}
+to fight the trainer
+
+:::::trainer[Ace Trainer Shannon]
+ ::::pokemon[Cryogonal]
+    - Rock Tomb
+ ::::
+ ::::pokemon[Piloswine]
+    - Aura Sphere
+ ::::
+ ::::pokemon[Jynx]
+    - Rock Tomb
+ ::::
+::::: 
+
+Go to the
+:info[**yellow platform**]{color=yellow}
+
+:::::trainer[Ace Trainer Theo]
+ ::::pokemon[Beartic]
+    - Aura Sphere
+ ::::
+ ::::pokemon[Vanilluxe]
+    - Aura Sphere
+ ::::
+:::::
+
+:info[**Yellow x1**]{color=yellow}
+:info[**Green x3**]{color=green}
+
+:::::trainer[Leader Wulfric]{info="Remeber HP After" infoColor=pink}
+ ::::pokemon[Abomasnow]
+    - Aura Sphere
+ ::::
+ ::::pokemon[Cryogonal]
+    - lose Combat
+ ::::
+ ::::pokemon[Avalugg]
+    - Aura Sphere
+ ::::
+::::: 
+
+:info[Heal if 55 or below]{color=yellow}
+
+- Follow the path west
+- Under the bridge
+  - Dodge the Ace Trainer (twice) just across the bridge
+- Up the stairs
+  - Go behind the Ace Duo 
+  - Go inside the building. 
+
+- Fight the Ace Trainer
+
+:::::trainer[Ace Trainer Robbie]
+ ::::pokemon[Carbink]{info="Moonblast does 40 (42)" infoColor=blue}
+    - Swords Dance 
+    - Close Combat
+ ::::
+ ::::pokemon[Raichu]{info=" Quick Attack does 15" infoColor=blue}
+    - Rock Tomb   
+ ::::
+ ::::pokemon[Kingdra]
+    - Close Combat
+ ::::
+::::: 
+
+- VICTORY ROAD
+
+:::::trainer[Ace Trainer Alanza]
+ ::::pokemon[Weavile]
+    - Aura Sphere
+ ::::
+:::::
+
+- Once you reach the water 
+- Bag
+  - Heal if 80 HP or lower
+  - (Rare Candy)
+  - Teach Shadow Claw over Aura Sphere (Slot 1)
+- Surf left 
+- Then go up and RIGHT 
+  - USE ROCK SMASH on RIGHT path to dodge trainer
+  - Then go left/down 
+- Watch for optional
+- Outside 
+  - On bridge 
+  - Hug left
+- After re-entering 
+  - Go right immediately 
+  - Hop on stones to go up
+- Go right to push strength boulder 
+  - Avoid spinner on the way!
+-Go up stairs 
+  - Go behind the double battle
+
+:::::trainer[Pokémon Trainer Calem]
+ ::::pokemon[Meowstic]
+    - If you have an X-Attack left (and 2 Close Combats)
+      - X Attack
+    - Otherwise
+      - Swords Dance (x2 if Faked Out)
+    - Sadow Claw
+ ::::
+ ::::pokemon[Delphox]
+    - Sadow Claw
+ ::::
+ ::::pokemon[Jolteon]{info="Speed tie without Steadfast boost" infoColor=red}
+    - With Swords Dance
+      - Sadow Claw
+    - With X-Attack
+      - Close Combat
+ ::::
+ ::::pokemon[Altaria]
+    - Rock Tomb
+ ::::
+ ::::pokemon[Absol]{info="Quick Attack can do 17 at +0 Defense" infoColor=blue}
+    - Close Combat
+ ::::
+:::::
+
+- Talk to the Ranger you passed for a 
+:info[**Free heal**]{color=pink}
+
+- Keep following the path down-right and enter the cave.
+- Go east upon entering the cave. 
+
+- Ledges
+  - Start on the Right-most one!
+  - Down x3
+  - Right x2
+
+:::::trainer[Veteran Gerard]
+ ::::pokemon[Banette]
+    - Shadow Claw
+ ::::
+ ::::pokemon[Leafeon]
+    - Swords Dance 
+    -Close Combat
+ ::::
+::::: 
+
+- Once outside 
+- Check if there is a shadow behind the rock
+  - If there IS a shadow 
+  - Run back to cave to reload area 
+  - Hope there isn’t a shadow
+- Avoid trainer by going around the rocks
+![Trainer Avoid](traineravoid.png)
+
+:::::trainer[Veteran Gerard]
+ ::::pokemon[Trevenant]
+    - Shadow Claw
+    - If hit by Will-O-Wisp 
+      - Full Heal
+    - Shadow Claw
+ ::::
+ ::::pokemon[Gigalith]
+    - If Cursed OR if can die to 154 (156)
+      - Switch to Hawlucha
+      - Wing Attack (then spam Swords Dance)
+      - Switch to Lucario
+      - Close Combat
+    - Otherwise
+      - Shadow Claw
+      - Close Combat
+ ::::
+:::::
+
+:::::trainer[Veteran Catrina]
+ ::::pokemon[Glaceon]{info="Blizzard does 59 (60)" infoColor=blue}
+    - If Gigalith used Protect on Close Combat
+      - Swords Dance
+      - Rock Tomb
+    - Otherwise
+      - Close Combat
+ ::::
+ ::::pokemon[Snorlax]
+    - Close Combat
+ ::::
+:::::
+
+:info[Heal if 37 HP or less]{color=yellow}
+
+:::::trainer[Veteran Gilles]
+ ::::pokemon[]{info="Steel Wing can do 27 (28)" infoColor=blue}
+    - Shadow Claw 
+    - Close Combat
+ ::::
+ ::::pokemon[Alakazam]
+    - Shadow Claw
+ ::::
+ ::::pokemon[Umbreon]{info="Quick Attack can do 12" infoColor=blue}
+    - Close Combat
+ ::::
+:::::
+
+- Head to the Pokémon Center
+  - Deposit all Pokémon
+  - PC Heal Lucario
+  - Buy Full Restores (>) if none left
+
+Top right chamber
+
+:::::trainer[Elite Four Malva]
+ ::::pokemon[Pyroar]
+    - Swords Dance 
+    - If Noble Roared
+      - Swords Dance
+    - If Burnt
+      - Full Restore
+    - Close Combat
+ ::::
+ ::::pokemon[Talonflame]{info="Quick Attack does 17-19 (20)" infoColor=blue}
+    - Rock Tomb
+ ::::
+ ::::pokemon[Torkoal]
+    - Close Combat
+ ::::
+ ::::pokemon[Chandelure]
+    - If low HP or playing it safe
+      - Shadow Claw
+    - Otherwise
+      - Rock Tomb
+ ::::
+:::::
+
+:info[Heal to full if you took more damage than Talonflame’s Quick Attack (Full Restore if burnt)]{color=yellow}
+
+Top left chamber
+
+:::::trainer[Elite Four Wikstrom]
+ ::::pokemon[Klefki] 
+    - Swords Dance x2 (Rock Tomb in between if Tormented)
+    - If got hit by 2 Dazzling Gleams
+      - Hyper Potion
+    - Shadow Claw
+ ::::
+ ::::pokemon[Probopass]{info="Earth Power does 76-88 (90)" infoColor=blue}
+    - No Torment
+      - Shadow Claw x2
+    - Otherwise 
+      - Rock Tomb (Shadow Claw if you miss) 
+      - Close Combat
+ ::::
+ ::::pokemon[Aegislash]
+    - Shadow Claw
+      - Need to be at 68 HP or lower
+ ::::
+ ::::pokemon[Scizor]
+    - Heal if 40/(41) +0 Def, 60/(61) -1 Def
+    - Cclose Combat
+ ::::
+:::::
+
+Heal if at 104 HP or lower. 
+
+Bottom left chamber
+
+:::::trainer[Elite Four Drasna]
+ ::::pokemon[Dragalge]{info="Thunderbolt does 41-48 (49)" infoColor=blue}
+    - Swords Dance x2
+    - If at 24 HP or less
+      - Heal to full
+    - Shadow Claw
+ ::::
+ ::::pokemon[Noivern]
+    - Close Combat (Rock Tomb if Close Combat on Probopass)
+ ::::
+ ::::pokemon[Druddigon]
+    - Close Combat
+ ::::
+ ::::pokemon[Altaria]
+    - Close Combat
+ ::::
+:::::
+
+- Bag
+  - Heal to full
+  - Ether Close Combat **(DO NOT MASH A)**
+  - Equip Lucarionite
+  - _Consider saving_ 
+
+Bottom Right chamber. Say Yes to Siebold.
+
+:::::trainer[Elite Four Siebold]
+ ::::pokemon[Clawitzer]
+    - [Mega Evolve] Close Combat
+ ::::
+ ::::pokemon[Gyarados]{info="15/16 range" infoColor=red}
+    - Swords Dance
+    - Close Combat   
+ ::::
+ ::::pokemon[Barbaracle]
+    - Close Combat
+ ::::
+ ::::pokemon[Starmie]
+    - Shadow Claw
+ ::::
+:::::
+
+:info[Heal if took any damage]{color=yello}
+
+:::::trainer[Champion Diantha (fast version, safer version below)]
+ ::::pokemon[Hawlucha]
+    - Swords Dance 
+    - Close Combat
+ ::::
+ ::::pokemon[Goodra]
+    - Close Combat
+ ::::
+ ::::pokemon[Tyrantrum]
+    - Close Combat
+ ::::
+ ::::pokemon[Aurorus]
+    - Rock Tomb
+    - If miss, you are at full HP and Aurorus used Reflect
+      - Swords Dance
+      - If you got hit by Thunder
+        - [Meva Evolve] Rock Tomb
+      - If Thunder missed or went for Light Screen
+        - Swords Dance 
+        - Rock Tomb
+    -If you missed and no Reflect is up
+      - Rock Tomb
+ ::::
+ ::::pokemon[Gourgeist]
+    - If took damage
+      - Heal to full
+    - If Gourgeist uses Phantom Force and you have X-Defense:
+      - X-Defense
+      - Heal to full
+    - Shadow Claw
+ ::::
+ ::::pokemon[Gardevoir]
+    - Shadow Claw
+ ::::
+:::::
+
+:::::trainer[Champion Diantha (safer version)]
+ ::::pokemon[Hawlucha]
+    - [Mega Evolve] Swords Dance 
+    - Shadow Claw
+ ::::
+ ::::pokemon[Goodra]
+    - Close Combat
+ ::::
+ ::::pokemon[Tyrantrum]
+    - Close Combat
+ ::::
+ ::::pokemon[Aurorus]
+    - If got crit by Hawlucha
+      - Heal to full
+    - Close Combat
+ ::::
+ ::::pokemon[Gourgeist]
+    - Shadow Claw
+ ::::
+ ::::pokemon[Gardevoir]
+    - Shadow Claw
+ ::::
+:::::
+
+:::::trainer[Trainer AZ]
+ ::::pokemon[Torkoal]
+    - Swords Dance x1000
+ ::::
+:::::
+
+Split as soon as you see the fadeout from dying to AZ
